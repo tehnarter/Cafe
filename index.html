@@ -1,228 +1,344 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/swiper.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Сладкий сундук</title>
   </head>
   <body>
-    <header class="header">
-      <div class="head container">
-        <div class="header__row">
-          <div class="logo">
-            <div class="text__logo">Сладкий сундук</div>
-          </div>
-          <div class="adress">
-            <div class="adress__icon"></div>
-            <div class="adress__text">Ежедневно с 9:00 до 20:00</div>
-          </div>
-          <div class="phone">
-            <div class="phone__img"></div>
-            <div class="phone__number">
-              <div class="phone__number__number">8 (812) 844-95-49</div>
-              <div class="phone__number__text">Ежедневно с 9:00 до 20:00</div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="head__container">
+          <div class="header__row">
+            <div class="logo">
+              <div class="text__logo">Сладкий сундук</div>
+            </div>
+            <div class="adress">
+              <div class="adress__text">
+                г. Санкт Петербург,ул. Куйбышева 31
+              </div>
+              <!-- <div class="adress__text"></div> -->
+            </div>
+            <div class="phone">
+              <div class="phone__number">
+                <div class="phone__number__number">8 (812) 844-95-49</div>
+                <div class="phone__number__text">Ежедневно с 9:00 до 20:00</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="header__text conrainer">
-          <div class="header__text__row">
-            <div class="text__head">
-              <div class="text__head__p">вкуснейшие</div>
-              <div class="text__head__p2">
-                Пирожные и капкейки от 150 ₽/шт. с доставкой по Санкт Петербургу
-              </div>
-              <div class="text__head__p3">
-                Приготовим за 3 часа в день заказа. Доставка на авто в
-                холодильнике.
-              </div>
-            </div>
-            <div class="head__button">
-              <div class="head__button__button">Перейти в каталог</div>
-              <div class="head__button__text">9 различных видов на выбор</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="card">
-        <div class="card__container container">
-          <h2 class="card__text">Для любых событий и дорогих вам людей</h2>
-          <div class="card__row">
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_1.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Кремовый замок</div>
-                <div class="content__text">
-                  Нежный крем любого цвета на выбор, вафельная основа
+          <div class="header__conrainer">
+            <div class="header__text__row">
+              <div class="text__head">
+                <div class="text__head__p">вкуснейшие</div>
+                <div class="text__head__p2">
+                  Пирожные и капкейки от 150 ₽/шт. с доставкой по Санкт
+                  Петербургу
                 </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_2.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Малиновый рай</div>
-                <div class="content__text">
-                  Воздушный крем, темная основа и ягода малины
+                <div class="text__head__p3">
+                  Приготовим за 3 часа в день заказа. Доставка на авто в
+                  холодильнике.
                 </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
               </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_3.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Фейерверк</div>
-                <div class="content__text">
-                  Разноцветные крем, с бисквитной основой
+              <div class="head__button">
+                <div class="head__button__button">Перейти в каталог</div>
+                <div class="head__button__text">
+                  9 различных <br />
+                  видов на выбор
                 </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_4.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Шоколадный мир</div>
-                <div class="content__text">
-                  Ореховая стружка, нежный крем и шоколадная основа
-                </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_5.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Слезы дракона</div>
-                <div class="content__text">
-                  Нежный крем любого цвета на выбор, вафельная основа
-                </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_6.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Летняя фантазия</div>
-                <div class="content__text">
-                  Украшения в форме сердец, для любимого человека
-                </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_7.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Мыс безумия</div>
-                <div class="content__text">
-                  Разноцветная основа, стружка и нежный крем
-                </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_8.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Облачная сказка</div>
-                <div class="content__text">
-                  Светлая основа, нежный крем со стружкой сверху
-                </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
-              </div>
-            </div>
-            <div class="card__card">
-              <div class="card__img">
-                <img src="img/section_card/card_9.jpg" alt="" />
-              </div>
-              <div class="card__content">
-                <div class="content__head">Темный рыцарь</div>
-                <div class="content__text">
-                  Тёмная основа, нежный крем и вкусные шарики
-                </div>
-                <div class="content__cena">150 ₽/шт.</div>
-                <div class="card__button">Заказать</div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="content">
-        <div class="content__container container">
-          <div class="content__card">
-            <div class="content__title">Не нашли то что нужно?</div>
-            <div class="content__subtitle">
-              Приготовим заказ любой сложности по фото или эскизу
+      </header>
+      <main>
+        <section class="card">
+          <div class="card__container">
+            <h2 class="card__text">Для любых событий и дорогих вам людей</h2>
+            <div class="card__row">
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_1.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Кремовый замок</div>
+                  <div class="content__text">
+                    Нежный крем любого цвета на выбор, вафельная основа
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_2.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Малиновый рай</div>
+                  <div class="content__text">
+                    Воздушный крем, темная основа и ягода малины
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_3.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Фейерверк</div>
+                  <div class="content__text">
+                    Разноцветные крем, с бисквитной основой
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_4.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Шоколадный мир</div>
+                  <div class="content__text">
+                    Ореховая стружка, нежный крем и шоколадная основа
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_5.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Слезы дракона</div>
+                  <div class="content__text">
+                    Нежный крем любого цвета на выбор, вафельная основа
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_6.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Летняя фантазия</div>
+                  <div class="content__text">
+                    Украшения в форме сердец, для любимого человека
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_7.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Мыс безумия</div>
+                  <div class="content__text">
+                    Разноцветная основа, стружка и нежный крем
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_8.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Облачная сказка</div>
+                  <div class="content__text">
+                    Светлая основа, нежный крем со стружкой сверху
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
+              <div class="card__card">
+                <div class="card__img">
+                  <img src="img/section_card/card_9.jpg" alt="" />
+                </div>
+                <div class="card__content">
+                  <div class="content__head">Темный рыцарь</div>
+                  <div class="content__text">
+                    Тёмная основа, нежный крем и вкусные шарики
+                  </div>
+                  <div class="content__cena">150 ₽/шт.</div>
+                  <div class="card__button">Заказать</div>
+                </div>
+              </div>
             </div>
-            <div class="content__texttitle">
-              Загрузите фотографию или эскиз капкейков и мы рассчитаем стоимость
-              за 30 минут
-            </div>
-            <div class="content__button">Загрузить фотографию</div>
           </div>
-        </div>
-      </section>
-      <section class="content2">
-        <div class="content2__container container">
-          <div class="content2__blok">
-            <div class="content2__title">Кто будет готовить?</div>
-            <div class="content2__subtitle">
-              Лично приготовлю и всё красиво упакую для вашего события
-            </div>
-            <ul type="square" class="content2__bullits">
-              <li>
-                Проконсультирую по выбору капкейков и придумаю нестандартную
-                идею
-              </li>
-              <li>
-                Приготовлю капкейки для вашего события, которые обязательно всем
-                понравятся
-              </li>
-              <li>
-                Аккуратно и красиво всё упакую, если вы хотите сделать приятный
-                подарок
-              </li>
-            </ul>
-            <div class="content2_button">Задать вопрос Юлии</div>
-          </div>
-          <div class="content2__woman">
-            <img src="img/section_women/woman.png" alt="" />
-            <div class="woman__name">
-              <div class="woman__title">Юлия Кондратьева</div>
-              <div class="woman__subtitle">ваш кондитер</div>
+        </section>
+        <section class="content">
+          <div class="content__container">
+            <!-- <div class="content__img">
+              <img src="img/section_content/phone1.png" alt="" />
+            </div> -->
+            <div class="content__card">
+              <div class="content__title">Не нашли то что нужно?</div>
+              <div class="content__subtitle">
+                Приготовим заказ любой сложности по фото или эскизу
+              </div>
+              <div class="content__texttitle">
+                Загрузите фотографию или эскиз капкейков и мы рассчитаем
+                стоимость за 30 минут
+              </div>
+              <div class="content__button">Загрузить фотографию</div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div class="div"></div>
-      </section>
-    </main>
-    <footer></footer>
+        </section>
+        <section class="content2">
+          <div class="content2__container">
+            <div class="content2__blok">
+              <div class="content2__title">Кто будет готовить?</div>
+              <div class="content2__subtitle">
+                Лично приготовлю и всё красиво упакую для вашего события
+              </div>
+              <ul type="square" class="content2__bullits">
+                <li>
+                  Проконсультирую по выбору капкейков и придумаю нестандартную
+                  идею
+                </li>
+                <li>
+                  Приготовлю капкейки для вашего события, которые обязательно
+                  всем понравятся
+                </li>
+                <li>
+                  Аккуратно и красиво всё упакую, если вы хотите сделать
+                  приятный подарок
+                </li>
+              </ul>
+              <div class="content2_button">Задать вопрос Юлии</div>
+            </div>
+            <div class="content2__woman">
+              <img src="img/section_women/woman.png" alt="" />
+              <div class="woman__name">
+                <div class="woman__title">Юлия Кондратьева</div>
+                <div class="woman__subtitle">ваш кондитер</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="slider">
+          <img class="slider__fon1" src="img/section_slider/fon_1.png" alt="" />
+          <img class="slider__fon2" src="img/section_slider/fon_2.png" alt="" />
+          <div class="slider__container container">
+            <h2 class="slider__text">Почитайте отзывы довольных клиентов</h2>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="img/section_slider/otziv.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/section_slider/otziv.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/section_slider/otziv.jpg" alt="" />
+                </div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+
+              <!-- If we need scrollbar -->
+              <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+        <section class="img">
+          <div class="img__container">
+            <h2 class="img__title">Сделали более 3.000 заказов за 2 года</h2>
+            <div class="img__subtitle">
+              Посмотрите фото реальных заказов из нашего instagram
+            </div>
+          </div>
+          <div class="img__row">
+            <div class="img__picture">
+              <img src="img/section_img/photo_1.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_2.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_3.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_4.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_5.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_6.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_7.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_8.jpg" alt="" />
+            </div>
+            <div class="img__picture">
+              <img src="img/section_img/photo_9.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="form">
+          <img class="form__img" src="img/section_form/fon1.png" alt="" />
+          <div class="form__container">
+            <div class="form__block">
+              <div class="form__title">
+                Чтобы сделать заказ, укажите ваш телефон
+              </div>
+              <div class="form__text">
+                Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания
+              </div>
+              <form class="form__form" action="">
+                <input
+                  class="form__phone"
+                  type="number"
+                  placeholder="Номер телефона"
+                />
+                <button class="form__button">Сделать заказ</button>
+                <div class="form__checkbox">
+                  <input type="checkbox" />
+                  <span class="form__span">
+                    Нажамая на кнопку, вы соглашаетесь c условиями обработки
+                    персональных данных </span
+                  >span>
+                </div>
+              </form>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="footer__text">
+              <a href="">Согласие на обработку данных</a>
+              <a href="">Служба поддержки</a>
+              <a href="">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__adres">
+              © nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН
+              0000000000000
+            </div>
+          </footer>
+        </section>
+      </main>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
-gj
